@@ -31,7 +31,7 @@ class Person {
         setTimeout(() => {
             console.log('Arrow: ' + this.name)
         }, 100);
-    };
+    }; // the 'this' is globally scoped within the code
 
     printNameFunction() {
         setTimeout(function() {
